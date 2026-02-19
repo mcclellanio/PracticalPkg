@@ -5,6 +5,7 @@
 		}
 	],
 	"settings": {
-		"julia.environmentPath": "/Users/mcclellm/Space/Scratch/Julia/PracticalEnv/PracticalPkg"
+		"julia.environmentPath": "/Users/mcclellm/Space/Scratch/Julia/PracticalEnv/PracticalPkg",
+		"editor.fontSize": 16
 	}
 }
