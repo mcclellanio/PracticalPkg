@@ -1,0 +1,10 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+LiveServer = "16fef848-5104-11e9-1b77-fb7a48bbb589"
+PracticalPkg = "f93ac9d6-c0e5-564d-9c20-a1d2b629210c"
+
+[compat]
+Documenter = "1"
+
+[sources]
+PracticalPkg = {path = ".."}
