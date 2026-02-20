@@ -1,10 +1,14 @@
 name = "PracticalPkg"
 uuid = "f93ac9d6-c0e5-564d-9c20-a1d2b629210c"
-authors = ["mcclellanio mcclellanio@fastmail.com"]
 version = "0.1.0"
+authors = ["mcclellanio mcclellanio@fastmail.com"]
 
 [workspace]
 projects = ["test", "docs"]
 
+[deps]
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+
 [compat]
+Random = "1.11.0"
 julia = "1.12"
