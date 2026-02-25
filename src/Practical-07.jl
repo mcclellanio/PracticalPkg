@@ -59,7 +59,7 @@ creatures = [
 ]
 
 foodchain = SimpleDiGraph(length(creatures))
-food_dict = Dict(creatures[i] => i for i = 1:length(creatures))
+food_dict = Dict(creatures[i] => i for i in eachindex(creatures))
 
 function ↪(predator, prey)
     add_edge!(foodchain, food_dict[predator], food_dict[prey])
@@ -151,4 +151,3 @@ q = x -> x^5
 p(4) == q(4) == 1024
 
 plot([power(n) for n = 1:5], legend = :topleft)
-
